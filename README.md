@@ -1,78 +1,48 @@
-# Token Era Labs ⚡
+# 🚀 Token Era Labs
 
-> *"We are at the beginning of a new computing era — the era of AI."*
-> — Jensen Huang, NVIDIA GTC 2024
+> *"The future is not just about computing power; it's about the **Token Era**."*
+> — Jensen Huang, GTC 2026
 
----
+欢迎来到 **Token Era Labs**！这是一个记录我在人工智能"Token 时代"探索旅程的开源仓库。
 
-## 关于这个仓库
+在这里，我利用 **Claude Code** 等先进 AI 工具，从**深度阅读顶级论文**到**从零复现核心算法**，再到**构建实际的 AI 应用**，致力于将理论转化为可运行的代码。
 
-这是 **Token Era Labs** —— 一个在 AI 大爆发时代留下的学习印记。
+## 🎯 使命 (Mission)
 
-2024 年，黄仁勋在 GTC 大会上宣告：「AI 的奇点已经到来，每一枚 Token 都是算力的结晶，每一次推理都是智能的涌现。」我们正站在 Transformer 架构统治世界的时间节点上，目睹着 LLM、扩散模型、多模态系统重新定义人机交互的边界。
+在 Token 成为基本计算单元的时代，本仓库旨在：
+1. **解构 (Deconstruct)**：深入理解 Transformer、MoE、Attention 等核心机制。
+2. **实践 (Practice)**：拒绝只做"调包侠"，手写关键算法以掌握底层原理。
+3. **构建 (Build)**：利用 AI 协作（Human-in-the-loop）快速原型化创新应用。
 
-这个仓库是我在 **Token Era** 中探索 AI/ML 前沿的个人实验室，全程借助 **Claude Code** 辅助学习、记录与实践。
+## 📂 仓库导航
 
----
+| 目录 | 内容描述 |
+| :--- | :--- |
+| 📄 **[docs/paper-notes](./docs/paper-notes)** | 使用 Claude Code 辅助阅读的论文精读笔记，包含核心公式推导与创新点总结。 |
+| ⚙️ **[experiments](./experiments)** | 算法原理的从零实现（From Scratch）。例如：手写 Attention、构建简易 Tokenizer。 |
+| 🛠️ **[projects](./projects)** | 基于最新研究成果构建的完整 AI 应用与 Demo。 |
+| 🔗 **[resources](./resources)** | 精选的数据集、工具链配置与学习路线图。 |
 
-## 仓库结构
+## 🛠️ 技术栈 (Tech Stack)
 
-```
-token-era-labs/
-├── docs/
-│   ├── paper-notes/     # 论文精读笔记 (Attention, RLHF, Scaling Laws...)
-│   └── learning-log/    # 每日/每周学习日志
-├── experiments/         # 可复现的实验代码与结果
-├── projects/            # 完整的项目实现
-├── resources/           # 参考资料、链接、工具清单
-├── .gitignore
-├── requirements.txt
-└── README.md
-```
+- **AI Pair Programmer**: [Claude Code](https://claude.ai/code) (核心协作伙伴)
+- **Language**: Python 3.10+, Rust (可选)
+- **Frameworks**: PyTorch, Hugging Face Transformers, LangChain
+- **Tools**: Jupyter Lab, Git, Docker
 
----
+## 🤝 协作流程 (Workflow)
 
-## 技术栈
+本仓库的大部分内容由 **人类直觉 + AI 执行力** 共同完成：
+1. **选题**：选定一篇前沿论文或一个算法难点。
+2. **解读**：使用 Claude Code 解析论文，提取关键逻辑。
+3. **编码**：通过自然语言指令让 AI 生成骨架代码，人工进行核心逻辑审查与优化。
+4. **验证**：运行实验，对比结果，记录差异与分析。
 
-| 工具 | 用途 |
-|------|------|
-| `torch` | 深度学习框架，万物之基 |
-| `transformers` | HuggingFace 生态，站在巨人肩上 |
-| `numpy` | 张量运算的基石 |
-| `pandas` | 数据操纵，分析利器 |
+## 📅 更新日志
 
----
-
-## 探索方向
-
-- **大语言模型 (LLM)** — 预训练、微调、RLHF、推理优化
-- **Scaling Laws** — 算力、数据、参数的幂律关系
-- **多模态** — 语言 × 视觉 × 音频的融合
-- **AI Infra** — 高效推理、量化、分布式训练
-- **Agent 系统** — 工具调用、规划、记忆与自主决策
+- **2026-03**: 仓库建立。开启 Token 时代的探索之旅。
+- *期待你的加入与共同进化...*
 
 ---
 
-## 致谢与工具
-
-> 本仓库的学习记录、代码辅助与结构设计，均由 **[Claude Code](https://claude.ai/code)** (Anthropic) 协助完成。
->
-> 在 Token Era，AI 不仅是研究对象，更是学习的伙伴。
-
----
-
-## 时间线
-
-- **2024** — GTC 宣言：Blackwell 架构、物理 AI、人形机器人
-- **2025** — Agent 元年：从 Copilot 到自主执行
-- **2026 →** — 持续进化中...
-
----
-
-<div align="center">
-
-*「每一个 Token，都是对未来的一次投票。」*
-
-**Built with curiosity. Powered by compute. Assisted by Claude Code.**
-
-</div>
+*Built with ❤️ and Tokens in the Age of AI.*
